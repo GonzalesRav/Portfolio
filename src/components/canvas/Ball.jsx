@@ -13,14 +13,17 @@ const Ball = (props) => {
       <mesh castShadow receiveShadow scale={2.7}>
         <sphereGeometry args={[1,50, 50]}/>
         <meshStandardMaterial 
-        roughness={0}
-        metalness={0.5}
-        color="#FFF3D4"
+          roughness={0.1}
+          metalness={0.8} 
+          transparent={true}
+          opacity={0.3}
+          color="#ffffff"
+          envMapIntensity={0.9}
         />
         <Decal 
         position={[0, 0, 1]}
         rotation={[2*Math.PI, 0, 6.25]}
-        flatShading
+        flatShading= {[true]}
         map={decal}/>
       </mesh>
     </Float>

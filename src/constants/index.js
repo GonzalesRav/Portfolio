@@ -1,16 +1,21 @@
+import { three } from "maath";
 import {
 javascript,
 typescript,
 html,
 css,
-reactjs,
-redux,
+python,
+arcgis,
+sql,
+ionic,
+firebase,
+trello,
+jira,
+php,
 tailwind,
 nodejs,
-mongodb,
 git,
 figma,
-docker,
 threejs,
 angular,
 bootstrap,
@@ -59,12 +64,16 @@ const services = [
 
 const technologies = [
 {
-    name: "HTML 5",
-    icon: html,
+    name: "ArcGis",
+    icon: arcgis,
 },
 {
-    name: "CSS 3",
-    icon: css,
+    name: "SQL",
+    icon: sql,
+},
+{
+    name: "Python",
+    icon: python,
 },
 {
     name: "JavaScript",
@@ -75,12 +84,28 @@ const technologies = [
     icon: typescript,
 },
 {
+    name: "PHP",
+    icon: php,
+},
+{
+    name: "HTML 5",
+    icon: html,
+},
+{
+    name: "CSS 3",
+    icon: css,
+},
+{
+    name: "Ionic",
+    icon: ionic,
+},
+{
     name: "Angular",
     icon: angular,
 },
 {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Firebase",
+    icon: firebase,
 },
 {
     name: "Bootstrap",
@@ -91,12 +116,28 @@ const technologies = [
     icon: tailwind,
 },
 {
-    name: "git",
+    name: "ThreeJS",
+    icon: threejs,
+},
+{
+    name: "Node JS",
+    icon: nodejs,
+},
+{
+    name: "Git",
     icon: git,
 },
 {
-    name: "figma",
+    name: "Figma",
     icon: figma,
+},
+{
+    name: "Trello",
+    icon: trello,
+},
+{
+    name: "Jira",
+    icon: jira,
 }
 ];
 

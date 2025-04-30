@@ -18,6 +18,14 @@ import typescript from "./tech/typescript.png";
 import angular from "./tech/angular.png";
 import bootstrap from "./tech/bootstrap.png";
 import threejs from "./tech/threejs.svg";
+import arcgis from "./tech/arcgis.png";
+import sql from "./tech/sql.png";
+import python from "./tech/python.png";
+import ionic from "./tech/ionic.png";
+import firebase from "./tech/firebase.png";
+import trello from "./tech/trello.png";
+import jira from "./tech/jira.png";
+import php from "./tech/php.png";
 
 import burgerqueen from './projects/burgerqueen.png'
 import fems from './projects/fems.png'
@@ -35,6 +43,14 @@ import deploy from './services/deploy.png'
 
 import laptophero from './laptophero.png'
 export {
+  arcgis,
+  sql,
+  python,
+  ionic,
+  firebase,
+  trello,
+  jira,
+  php,
   logo,
   github,
   menu,
